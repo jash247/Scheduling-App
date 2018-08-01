@@ -16,7 +16,7 @@ function main() {
         <Provider store={createStoreWithMiddleware(reducers)}>
         <Home />
         </Provider>
-        , document.querySelector('.home-wraper');
+        , document.querySelector('.home-wraper')
     )
 }
 
